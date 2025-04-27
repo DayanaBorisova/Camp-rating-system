@@ -12,7 +12,6 @@ namespace Camp_Rating_System.Controllers
     {
         private readonly ProjectDbContext _projectDbContext;
         private readonly UserManager<ApplicationUser> _userManager;
-        private readonly RoleManager<IdentityRole> _roleManager;
 
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IEmailSender _emailSender;
@@ -28,7 +27,6 @@ namespace Camp_Rating_System.Controllers
         {
             _projectDbContext = projectDbContext;
             _userManager = userManager;
-            _roleManager = roleManager;
             _signInManager = signInManager;
             _emailSender = emailSender;
             _logger = logger;
@@ -160,6 +158,13 @@ namespace Camp_Rating_System.Controllers
                     var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, lockoutOnFailure: false);
                     if (result.Succeeded)
                     {
+                        var roles = await _userManager.GetRolesAsync(user);
+
+                        if (roles.Contains("Admin"))
+                        {
+                            return RedirectToAction("AdminHome", "Home");
+                        }
+
                         return RedirectToAction("UserHome", "Home");
                     }
 
