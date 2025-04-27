@@ -1,0 +1,28 @@
+﻿@model Camp_Rating_System.Models.CampViewModel
+
+@{
+    ViewData["Title"] = "Delete Camp";
+}
+
+<h2>Delete Camp</h2>
+
+<h4>Are you sure you want to delete this camp?</h4>
+
+<div>
+    <h5>@Model.Name</h5>
+    <p>@Model.Description</p>
+    <p>Latitude: @Model.Latitude</p>
+    <p>Longitude: @Model.Longitude</p>
+
+    @if (Model.Photo != null && Model.Photo.Length > 0)
+    {
+        <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Photo)" width="200" />
+    }
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+

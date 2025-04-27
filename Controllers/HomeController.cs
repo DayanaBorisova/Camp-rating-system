@@ -8,12 +8,15 @@ namespace Camp_Rating_System.Controllers
 {
     public class HomeController : Controller
     {
-        
-        private readonly UserManager<ApplicationUser> _userManager;
+
+        UserManager<ApplicationUser> _userManager;
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(
+            UserManager<ApplicationUser> userManager,
+            ILogger<HomeController> logger)
         {
+            _userManager = userManager;
             _logger = logger;
         }
 
