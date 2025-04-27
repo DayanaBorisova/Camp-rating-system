@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Camp_Rating_System.Models.CampViewModel>
+
+@{
+    ViewData["Title"] = "Camps";
+}
+
+<h2>Available Camps</h2>
+
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-action="Create" class="btn btn-success">Add New Camp</a>
+    </p>
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Location</th>
+            <th>Photo</th>
+            @if (User.IsInRole("Admin"))
+            {
+                <th>Actions</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var camp in Model)
+        {
+            <tr>
+                <td>@camp.Name</td>
+                <td>@camp.Description</td>
+                <td>
+                    <strong>Lat:</strong> @camp.Latitude<br />
+                    <strong>Long:</strong> @camp.Longitude
+                </td>
+                <td>
+                    @if (camp.Photo != null && camp.Photo.Length > 0)
+                    {
+                        <img src="data:image/jpeg;base64,@Convert.ToBase64String(camp.Photo)" width="150" />
+                    }
+                    else
+                    {
+                        <span>No image</span>
+                    }
+                </td>
+                @if (User.IsInRole("Admin"))
+                {
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@camp.Id" class="btn btn-sm btn-primary">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@camp.Id" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

@@ -200,7 +200,7 @@ namespace Camp_Rating_System.Controllers
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
-                return RedirectToAction("Login", "Account");
+                return RedirectToAction("Login", "User");
             }
 
             var applicationUser = user as ApplicationUser;
@@ -232,7 +232,7 @@ namespace Camp_Rating_System.Controllers
 
                 if (user == null)
                 {
-                    return RedirectToAction("Login", "Account");
+                    return RedirectToAction("Login", "User");
                 }
 
                 var emailExist = await _userManager.FindByEmailAsync(model.Email);

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Camp_Rating_System.Models.ReviewViewModel>
+
+@{
+    ViewData["Title"] = "My Reviews";
+}
+
+<h2>My Reviews</h2>
+
+@if (!Model.Any())
+{
+    <p>You haven't posted any reviews yet.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Camp</th>
+                <th>Content</th>
+                <th>Rating</th>
+                <th>Created On</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var review in Model)
+            {
+                <tr>
+                    <td>@review.CampName</td>
+                    <td>@review.Content</td>
+                    <td>@review.Rating / 5</td>
+                    <td>@review.CreatedDate.ToString("dd MMM yyyy HH:mm")</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@review.Id" class="btn btn-sm btn-primary">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@review.Id" class="btn btn-sm btn-danger">Delete</a>
+                        
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
