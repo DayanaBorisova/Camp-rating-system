@@ -70,7 +70,7 @@ namespace Camp_Rating_System.Controllers
                     
                     // Generate the email confirmation token
                     var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-                    var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, token = token }, protocol: Request.Scheme);
+                    var callbackUrl = Url.Action("ConfirmEmail", "User", new { userId = user.Id, token = token }, protocol: Request.Scheme);
 
                         // Send confirmation email
                     await _emailSender.SendEmailAsync(model.Email, "Confirm your email",
