@@ -4,7 +4,7 @@ using Camp_Rating_System.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Delivery_System__Team_Enif_.Controllers
+namespace Camp_Rating_System.Controllers
 {
     public class HomeController : Controller
     {
