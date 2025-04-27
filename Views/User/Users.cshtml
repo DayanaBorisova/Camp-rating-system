@@ -1,0 +1,54 @@
+﻿@using Camp_Rating_System.Data
+@model IEnumerable<ApplicationUser>
+@{
+    ViewData["Title"] = "Users";
+    var isAdmin = User.IsInRole("Admin");
+}
+
+@if (isAdmin)
+{
+    <div class="container mt-4">
+        <div class="text-center mb-4">
+            @if (!ViewData.ModelState.IsValid)
+            {
+                <div class="alert alert-danger">
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                </div>
+            }
+            <table class="table table-hover table-striped table-bordered shadow-sm">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Име</th>
+                        <th>Имейл</th>
+                        <th></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var user in Model)
+                    {
+                        <tr>
+                            <td>@user.FirstName @user.LastName</td>
+                            <td>@user.Email</td>
+                            <td>
+                                <a href="@Url.Action("EditUser", new { id = user.Id })">Edit</a> |
+                                <a href="@Url.Action("DeleteUser", new { id = user.Id })">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
+else
+{
+    {
+    var url = Url.Action("Users", "Account");
+    }
+    <script>
+        window.location.href = "url";
+    </script>
+
+}
+

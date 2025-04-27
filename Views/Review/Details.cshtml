@@ -1,0 +1,17 @@
+﻿@model Camp_Rating_System.Models.ReviewViewModel
+
+@{
+    ViewData["Title"] = "Review Details";
+}
+
+<h1>Review Details</h1>
+
+<p><strong>Rating:</strong> @Model.Rating</p>
+<p><strong>Content:</strong> @Model.Content</p>
+<p><strong>Created On:</strong> @Model.CreatedDate</p>
+
+@if (Model.UserId == User.Identity.Name)
+{
+    <a href="@Url.Action("Edit", "Review", new { id = Model.Id })">Edit Review</a>
+}
+

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Camp_Rating_System.Models.ReviewViewModel>
+
+<h2>Моите ревюта</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Къмпинг</th>
+            <th>Съдържание</th>
+            <th>Дата</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var review in Model)
+        {
+            <tr>
+                <td>@review.CampName</td>
+                <td>@review.Content</td>
+                <td>@review.CreatedDate.ToString("dd.MM.yyyy")</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = review.Id })">Edit</a> |
+                    <a href="@Url.Action("Delete", new { id = review.Id })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

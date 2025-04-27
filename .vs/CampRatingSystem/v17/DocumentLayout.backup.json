@@ -1,0 +1,775 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DayanaRepo\\Camp-rating-system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\user\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\user\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\review\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\review\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\user\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\user\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\myreviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\myreviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\review\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\review\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\review\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\review\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\models\\reviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:models\\reviewviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\data\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:data\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\user\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\user\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\user\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\user\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\user\\registrationconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\user\\registrationconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\models\\user\\emailconfirmationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:models\\user\\emailconfirmationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\models\\user\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:models\\user\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\models\\user\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:models\\user\\profileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\models\\user\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:models\\user\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\controllers\\campcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:controllers\\campcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\models\\campviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:models\\campviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\data\\databaseseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:data\\databaseseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\wwwroot\\js\\camps_rating.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:wwwroot\\js\\camps_rating.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\userhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\userhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\adminhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\adminhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\guest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\guest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\data\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:data\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\data\\entities\\camp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:data\\entities\\camp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|e:\\dayanarepo\\camp-rating-system\\services\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E85DCC-5438-4E39-9191-12EA7DD3A64C}|CampRatingSystem.csproj|solutionrelative:services\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 37,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Review\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Review\\Details.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Review\\Details.cshtml",
+              "RelativeToolTip": "Views\\Review\\Details.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T09:34:33.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Review\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Review\\Edit.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Review\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Review\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T09:29:18.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Review\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Review\\Create.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Review\\Create.cshtml",
+              "RelativeToolTip": "Views\\Review\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABUAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T09:28:07.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReviewViewModel.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Models\\ReviewViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ReviewViewModel.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Models\\ReviewViewModel.cs",
+              "RelativeToolTip": "Models\\ReviewViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T09:11:33.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-27T08:37:42.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "README.md",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-04-27T08:20:49.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "camps_rating.js",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\wwwroot\\js\\camps_rating.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\camps_rating.js",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\wwwroot\\js\\camps_rating.js",
+              "RelativeToolTip": "wwwroot\\js\\camps_rating.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-27T08:19:24.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserHome.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\UserHome.cshtml",
+              "RelativeDocumentMoniker": "Views\\UserHome.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\UserHome.cshtml",
+              "RelativeToolTip": "Views\\UserHome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T08:17:05.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AdminHome.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\AdminHome.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminHome.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\AdminHome.cshtml",
+              "RelativeToolTip": "Views\\AdminHome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T08:16:21.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Guest.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Guest.cshtml",
+              "RelativeDocumentMoniker": "Views\\Guest.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Guest.cshtml",
+              "RelativeToolTip": "Views\\Guest.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T08:15:15.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA7wA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T08:12:54.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T08:10:07.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AdminDashboardViewModel.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Models\\AdminDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\AdminDashboardViewModel.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Models\\AdminDashboardViewModel.cs",
+              "RelativeToolTip": "Models\\AdminDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T08:09:14.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyReviews.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\MyReviews.cshtml",
+              "RelativeDocumentMoniker": "Views\\MyReviews.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\MyReviews.cshtml",
+              "RelativeToolTip": "Views\\MyReviews.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T08:06:30.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReviewController.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "Controllers\\ReviewController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwDYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:51:28.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvwsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:50:37.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CampViewModel.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Models\\CampViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CampViewModel.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Models\\CampViewModel.cs",
+              "RelativeToolTip": "Models\\CampViewModel.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwBcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:48:15.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CampController.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Controllers\\CampController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CampController.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Controllers\\CampController.cs",
+              "RelativeToolTip": "Controllers\\CampController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAjwG4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:46:59.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Review.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Data\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Review.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Data\\Entities\\Review.cs",
+              "RelativeToolTip": "Data\\Entities\\Review.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA4wAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:43:02.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Camp.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Data\\Entities\\Camp.cs",
+              "RelativeDocumentMoniker": "Data\\Entities\\Camp.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Data\\Entities\\Camp.cs",
+              "RelativeToolTip": "Data\\Entities\\Camp.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAzwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:39:15.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Models\\UserRole.cs",
+              "RelativeDocumentMoniker": "Models\\UserRole.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Models\\UserRole.cs",
+              "RelativeToolTip": "Models\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:35:18.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-27T07:32:36.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T07:32:21.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\User\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\AccessDenied.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\User\\AccessDenied.cshtml",
+              "RelativeToolTip": "Views\\User\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T07:32:11.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\User\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\ConfirmEmail.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\User\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "Views\\User\\ConfirmEmail.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T07:32:06.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\User\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\EditProfile.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\User\\EditProfile.cshtml",
+              "RelativeToolTip": "Views\\User\\EditProfile.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T07:31:53.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Login.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "Views\\User\\Login.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T07:31:43.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Register.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "Views\\User\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T07:31:24.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegistrationConfirmation.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\User\\RegistrationConfirmation.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\RegistrationConfirmation.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\User\\RegistrationConfirmation.cshtml",
+              "RelativeToolTip": "Views\\User\\RegistrationConfirmation.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T07:31:18.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\User\\Users.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Users.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\User\\Users.cshtml",
+              "RelativeToolTip": "Views\\User\\Users.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T07:30:46.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T07:30:37.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T07:30:32.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-27T07:29:45.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "Services\\EmailSender.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Services\\EmailSender.cs",
+              "RelativeToolTip": "Services\\EmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:29:30.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Services\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "Services\\IEmailSender.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Services\\IEmailSender.cs",
+              "RelativeToolTip": "Services\\IEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:29:24.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmailConfirmationViewModel.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Models\\User\\EmailConfirmationViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\User\\EmailConfirmationViewModel.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Models\\User\\EmailConfirmationViewModel.cs",
+              "RelativeToolTip": "Models\\User\\EmailConfirmationViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:28:58.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Models\\User\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\User\\LoginViewModel.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Models\\User\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\User\\LoginViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:28:40.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProfileViewModel.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Models\\User\\ProfileViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\User\\ProfileViewModel.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Models\\User\\ProfileViewModel.cs",
+              "RelativeToolTip": "Models\\User\\ProfileViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:28:18.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Models\\User\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\User\\RegisterViewModel.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Models\\User\\RegisterViewModel.cs",
+              "RelativeToolTip": "Models\\User\\RegisterViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:28:01.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DatabaseSeedData.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Data\\DatabaseSeedData.cs",
+              "RelativeDocumentMoniker": "Data\\DatabaseSeedData.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Data\\DatabaseSeedData.cs",
+              "RelativeToolTip": "Data\\DatabaseSeedData.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAjwFAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:25:46.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationUser.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:23:24.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ProjectDbContext.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Data\\ProjectDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ProjectDbContext.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Data\\ProjectDbContext.cs",
+              "RelativeToolTip": "Data\\ProjectDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAmwA0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:21:50.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\DayanaRepo\\Camp-rating-system\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\DayanaRepo\\Camp-rating-system\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T07:19:16.263Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
